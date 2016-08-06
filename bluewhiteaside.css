@@ -1,0 +1,220 @@
+
+/* 
+    Created on : Aug 5, 2016, 6:03:10 PM
+    Author     : Tim
+*/
+
+#loadIcon{
+    display: none;
+}
+
+body{
+    text-align: center;
+    background-color: white;
+    background-image: url(http://wallpapercave.com/wp/NQvm0uJ.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-width: 1080px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header{
+    position: relative;
+    top: -24px;
+    margin: -8px;
+    background-color: rgba(50,30,100,0.85);
+    padding-bottom: 0px;
+    border-bottom: 5px solid rgb(60, 160, 250);
+    max-height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+}
+
+
+footer{
+    clear: both;
+    top: 25px;
+    width: 100%;
+    position: relative;
+    font-size: 1.4em;
+    background-color: #fff;
+    padding-bottom: 0.5em;
+}
+
+
+article{
+    float: left;
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 1%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+}
+
+aside{
+    float: right;
+    position: fixed;
+    width: 22%;
+    left: 77%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+}
+
+aside img{
+    width: 400px;
+    height: 300px;
+}
+
+nav{
+    color: lightblue;
+    text-align: center;
+    font-size: 1.8em;
+    padding-bottom: 70px;
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#MainNav li{
+    display: inline-block;
+}
+
+
+#MainNav li a:hover{
+    font-size: 1.6em;
+    background-color: rgba(30,10,50,0.2);
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    text-decoration: none;
+    color: lightblue;
+    padding: 8px 30px;
+    border-radius: 10px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    font-size: 1.6em;
+    background-color: rgba(30,10,50,0.2);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(50,30,100,0.85);
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+.dropdown-content a {
+    color: rgb(60, 160, 250);
+    text-decoration: none;
+    text-align: left;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(30,10,50,0.2)
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.interestSection{
+    clear: both;
+    text-align: left;
+    width: 780px;
+    height: 400px;
+    margin: 20px;
+}
+
+.interestBody {
+    float: left;
+    color: black;
+    max-width: 360px;
+}
+
+.interestSection iframe{
+    float: right;
+}
+
+.interestTitle{
+    font-size: 1.3em;
+    color: black;
+    max-width: 300px;
+}
+
+
+h1{
+    font-family: Impact;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom: 5px solid rgb(60, 160, 250);
+    border-top: 5px solid rgb(60, 160, 250);
+    
+    color: rgb(100, 130, 200);
+    padding: 8px;
+}
+
+h2{
+    font-family: Impact;
+    font-size: 3em;
+    background-color: rgba(50,30,100,0.85);
+    border-radius: 5px;
+    color: lightblue;
+    margin: 0.5em;
+}
+
+h3{
+    clear: both;
+    font-family: Impact;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: rgb(60, 160, 250);
+}
+
+h4{
+    font-size: 1.6em;
+    text-align: left;
+    text-decoration: underline;
+    color: rgb(185, 120, 220);
+    padding-left: 20px;
+}
+
+p{
+    font-size: 1.2em;
+    line-height: 1.4;
+    padding: 0px 15px;
+    color: black;
+}
+
+#styleToggle{
+    float: left;
+    position: absolute;
+    left: 30px;
+    display: block;
+    cursor: pointer;
+}
+
+#styleToggle:hover{
+    font-size: 2em;
+}

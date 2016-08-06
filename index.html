@@ -4,14 +4,18 @@
     <head>
         <title>Rhyme and Reason - Home</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link type='text/css' rel='stylesheet' href='css/aside.css' media='screen'>
+        <meta name="viewport" content="width=device-width">
+        <link id='styling' type='text/css' rel='stylesheet' href='css/loadIcon.css' media='screen'>
+        <script src="scripts/homeStartScript.js"></script>
     </head>
     <body>
         <header>
+            
+            <h3 id="styleToggle">Style Toggle</h3>
+            
             <h1>Rhyme and Reason</h1>
 
-            <nav id='SiteNav'>
+            <nav>
                 <ul id="MainNav">
                     <li class="dropdown"><a href="index.html" title="Internal link to Home page." class="dropbtn">Home</a>
                         <div class="dropdown-content">
@@ -47,14 +51,14 @@
         </header>
        
         <main>
-            
-        <div id="artposition">
-            
+
         <aside>
             <h3>Daily Piece</h3>
             <p>A test of the side piece. Does this push the article piece
             down more when more content is applied? No, it does not. It stays
             to the side.</p>
+            <h3>Daily Images</h3>
+            <img id="mainImage" src="" alt="Images could not be found.">
         </aside>
         
         <article>
@@ -65,18 +69,18 @@
                 experimental build for the sake of practicing what I know.</p> 
             </section>
             
-            <section>
-                <h3 id="goal">Goal</h3>
+            <section id="goal">
+                <h3>Goal</h3>
                 <p>Hopefully overtime I can build this into something pretty awesome!</p>
             </section>
             
-            <section>
-                <h3 id="start">Project Start</h3>
+            <section id="start">
+                <h3>Project Start</h3>
                 <p>This project was started on 7/25/2016 in the Technology and Media 
                 Learning Center during the evening shift at about 6pm Central Time.</p>
             </section>
-            <section>
-                <h3 id="filler">Nonsense Filler</h3>
+            <section id="filler">
+                <h3 id="fillerTitle">Nonsense Filler</h3>
                 <p>
                     This will just me be me adding a bunch of repeating nonsense for testing.
                     This will just me be me adding a bunch of repeating nonsense for testing.
@@ -115,7 +119,7 @@
             </section>
             
         </article>
-        </div>
+
         </main>
          
         <footer>
@@ -124,6 +128,6 @@
                 <a href="https://steamcommunity.com/profiles/76561198040023182/" title="External link to my Steam account." target="_blank">Steam</a>
             </p>
         </footer>
-        
+        <script src="scripts/homeEndScript.js"></script>
     </body>
 </html>
